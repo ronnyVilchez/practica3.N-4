@@ -8,15 +8,19 @@ import { Moon } from './components/Destination/Moon'
 import { Mars } from './components/Destination/Mars'
 import { Europa } from './components/Destination/Europa'
 import { Titan } from './components/Destination/Titan'
-import {Commander} from './components/Crew/Commander'
+import { Commander } from './components/Crew/Commander'
 import { Specialist } from './components/Crew/Specialist'
 import { Pilot } from './components/Crew/Pilot'
 import { Engineer } from './components/Crew/Engineer'
+import { Vehicle } from './components/Technology/Vehicle'
+import { Spaceport } from './components/Technology/Spaceport'
+import { Capsule } from './components/Technology/Capsule'
 
 export default function App() {
   return (
     <Routes>
       <Route path='/home' element={<PageHome />} />
+      <Route path='*' element={<PageHome />} />
 
       <Route path='/destination' element={<PageDestination />}>
         <Route path='Moon' element={<Moon />} />
@@ -27,13 +31,17 @@ export default function App() {
 
       <Route path='/crew' element={<PageCrew />}>
         <Route path='commander' element={<Commander />} />
-        <Route path='specialist' element={<Specialist/>} />
+        <Route path='specialist' element={<Specialist />} />
         <Route path='pilot' element={<Pilot />} />
         <Route path='engineer' element={<Engineer />} />
 
       </Route>
 
-      <Route path='/technology' element={<PageTechnology />} />
+      <Route path='/technology' element={<PageTechnology />}>
+        <Route path='vehicle' element={<Vehicle />} />
+        <Route path='spaceport' element={<Spaceport />} />
+        <Route path='capsule' element={<Capsule />} />
+      </Route>
 
     </Routes>
 

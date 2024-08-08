@@ -13,7 +13,7 @@ export const Navigation = () => {
 
             <button ><Link className='inline-block h-full place-content-center  hover:border-white hover:border-b-[4px]  focus:border-white focus:border-b-[4px]' to='/crew/commander'>02 Crew</Link></button>
 
-            <button ><Link className='inline-block h-full place-content-center  hover:border-white hover:border-b-[4px]  focus:border-white focus:border-b-[4px]' to='/technology'>03 Technology</Link></button>
+            <button ><Link className='inline-block h-full place-content-center  hover:border-white hover:border-b-[4px]  focus:border-white focus:border-b-[4px]' to='/technology/vehicle'>03 Technology</Link></button>
         </section>
     </nav>
   )
