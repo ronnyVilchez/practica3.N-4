@@ -13,6 +13,10 @@ export default {
         'technology':'url(/images/technology/background-technology-desktop.jpg)'
       }
     },
+    
+    fontFamily: {
+      'bellefair': ["Barlow Condensed", "sans-serif"]
+    }
   },
   plugins: [],
 }

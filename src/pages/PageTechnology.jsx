@@ -4,7 +4,7 @@ import Technology from '../components/Technology/Technology'
 
 export const PageTechnology = () => {
     return (
-        <main className={`bg-technology w-full h-screen`} >
+        <main className={`bg-technology w-full h-screen font-bellefair`} >
             <Layout>
                <Technology/>
             </Layout>

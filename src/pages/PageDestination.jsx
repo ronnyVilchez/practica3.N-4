@@ -4,7 +4,7 @@ import Destination from '../components/Destination/Destination'
 
 export const PageDestination = () => {
     return (
-        <main className={`bg-destination w-full h-screen`} >
+        <main className={`bg-destination w-full h-screen font-bellefair`} >
             <Layout>
                 <Destination/>
             </Layout>
