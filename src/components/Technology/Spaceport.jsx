@@ -10,9 +10,9 @@ export const Spaceport = () => {
                     <NavTec />
                 </div>
                 <div className="flex flex-col h-full gap-4 mt-20">
-                    <h2 className='text-[white] opacity-50 text-[25px]'>THE TERMINOLOGY...</h2>
-                    <h1 className='text-[50px]'>SPACEPORT</h1>
-                    <p className='text-[14px] pb-8 '>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+                    <h2 className='text-[white] font-bellefair opacity-50 text-[25px]'>THE TERMINOLOGY...</h2>
+                    <h1 className='text-[50px] font-bellefair'>SPACEPORT</h1>
+                    <p className='text-[18px] text-[#D0D6F9] pb-8 '>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
                 </div>
             </div>
 

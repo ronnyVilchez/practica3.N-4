@@ -12,14 +12,14 @@ export const Moon = () => {
             <div className='flex flex-col w-full gap-4 px-[8rem]'>
                 <NavDest/>
                 <h1 className='text-[100px]'>MOON</h1>
-                <p className='text-[15px] pb-8 border-b-[1px] border-white border-opacity-25'>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                <p className='text-[18px] text-[#D0D6F9] pb-8 border-b-[1px] border-white border-opacity-25'>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
                 <div className="flex flex-row gap-8 pt-8 ">
                     <div className="flex flex-col gap-4">
-                        <span className='text-[15px]'>AVG. DISTANCE</span>
+                        <span className='text-[18px] text-[#D0D6F9]'>AVG. DISTANCE</span>
                         <h2 className='text-[32px]'>384,400 KM</h2>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <span className='text-[15px]'>EST. TRAVEL TIME</span>
+                        <span className='text-[18px] text-[#D0D6F9]'>EST. TRAVEL TIME</span>
                         <h2 className='text-[32px]'>3 DAYS</h2>
                     </div>
                 </div>

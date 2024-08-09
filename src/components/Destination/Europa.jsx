@@ -12,14 +12,14 @@ export const Europa = () => {
             <div className='flex flex-col w-full gap-4 px-[8rem]'>
                 <NavDest/>
                 <h1 className='text-[100px]'>EUROPA</h1>
-                <p className='text-[15px] pb-8 border-b-[1px] border-white border-opacity-25'>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+                <p className='text-[15px]text-[18px] text-[#D0D6F9] pb-8 border-b-[1px] border-white border-opacity-25'>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
                 <div className="flex flex-row gap-8 pt-8 ">
                     <div className="flex flex-col gap-4">
-                        <span className='text-[15px]'>AVG. DISTANCE</span>
+                        <span className='text-[18px] text-[#D0D6F9]'>AVG. DISTANCE</span>
                         <h2 className='text-[32px]'>628 mil. KM</h2>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <span className='text-[15px]'>EST. TRAVEL TIME</span>
+                        <span className='text-[18px] text-[#D0D6F9]'>EST. TRAVEL TIME</span>
                         <h2 className='text-[32px]'>3 years</h2>
                     </div>
                 </div>
